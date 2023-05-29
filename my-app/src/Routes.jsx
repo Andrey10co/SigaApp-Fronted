@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import MenuApp from './componentes/MenuApp';
+import MenuApp from "./componentes/MenuApp.jsx";
 import FormularioEstudiante from "./componentes/FormularioEstudiante";
 import FormularioProfesor from "./componentes/FormularioProfesor";
 import FormularioAsignatura from "./componentes/FormularioAsignatura";
