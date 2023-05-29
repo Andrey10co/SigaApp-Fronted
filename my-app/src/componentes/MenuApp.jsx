@@ -14,7 +14,7 @@ const MenuApp = () => {
       <Link to="/crear-asignatura">
         <button>Crear asignatura</button>
       </Link>
-        <button>Agregar curso</button>
+      <button>Agregar curso</button>
     </div>
   );
 };

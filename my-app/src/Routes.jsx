@@ -1,6 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import MenuApp from "./componentes/MenuApp";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import MenuApp from './componentes/MenuApp';
 import FormularioEstudiante from "./componentes/FormularioEstudiante";
 import FormularioProfesor from "./componentes/FormularioProfesor";
 import FormularioAsignatura from "./componentes/FormularioAsignatura";
@@ -8,6 +8,7 @@ import FormularioAsignatura from "./componentes/FormularioAsignatura";
 const Routes = () => {
   return (
     <Router>
+      <MenuApp />
       <Switch>
         <Route exact path="/" component={MenuApp} />
         <Route path="/crear-estudiante" component={FormularioEstudiante} />
